@@ -3,7 +3,7 @@ package ru.johnspade
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Configurable
 
-@Configurable(preConstruction = true)
+@Configurable
 class ConfigurableObject {
 
 	@Autowired
